@@ -1,0 +1,206 @@
+body{
+    background-color: darkslategray; 
+}
+
+
+
+.header-content form input{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 1rem;
+    border: none;
+    border-bottom: 2px solid gray;
+    border-radius: 20px;
+    
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.button button{
+    margin-top: 1rem;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    width: 150px;
+    height: 40px;
+}
+
+#hata{
+    color: red;
+    text-align: center;
+    font-size: 20px;
+}
+
+.kytbaslik{
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 8rem;
+}
+
+.ana-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.anaBtn{
+    font-size: 20px;
+    border-radius: 10px;
+    height: 50px;
+}
+
+#miktar{
+    width: 70%;
+    height: 30px;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+    display: none;
+    border: none;
+
+}
+
+#miktar::placeholder{
+    font-size: 20px;
+    text-align: center;
+}
+
+#iban{
+    width: 70%;
+    height: 30px;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+    display: none;
+    border: none;
+    display: none;
+}
+
+#iban::placeholder{
+    font-size: 20px;
+    text-align: center;
+}
+
+#ibanBtn{
+    display: none;
+    font-size: 20px;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.login-header{
+    margin-top: 200px;
+}
+
+.geriBtn{
+    display: none;
+    font-size: 20px;
+    border-radius: 10px;
+    height: 50px;
+}
+
+/* vadesiz hesap css */
+.vadesiz_header button{
+   display: block;
+   margin: auto;
+   width: 150px;
+   height: 50px;
+   border-radius: 10px;
+   border: none;
+   margin-top: 10px;
+    
+}
+
+.vadesiz_header input{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+     
+}
+.vadesiz_header h3{
+    display: block;
+    margin: auto;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+     
+}
+
+.hesap_box{
+    border: 1px solid black;
+    width: 70%;
+    height: 80vh;
+    margin: auto;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+#olstr{
+    font-size: larger;
+    width: 50%;
+    background-color: brown;
+    color: white;
+}
+h3{
+    color: white;
+}
+/* hesap sayfası css kodları */
+.ana-header-content button{
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 15px;
+    font-size: larger;
+    background-color: black;
+    color: white;
+    
+}
+
+.ana-header-content{
+    border: 1px solid black;
+    height: 90vh;
+    width: 250px;
+    margin-top: 100px;
+    
+}
+
+/* dolar css kodları */
+input{
+    color: brown;
+    text-align: center;
+    font-size: larger;
+    border-radius: 50px;
+}
+.kur_box{
+    display: flex;
+}
+.fazi_box input{
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    padding-top: 5rem;
+
+}
